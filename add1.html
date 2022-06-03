@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TodoList - UX</title>
+        <link rel="icon" type="image/x-icon" href="https://tse1.mm.bing.net/th?id=OIP.625SEu6Z6xYvr_QD1oPTPgHaHa&pid=Api&rs=1&c=1&qlt=95&w=116&h=116">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .container:not(#block){
+                filter: blur(4px);
+                position: absolute;
+                z-index: 1;
+                
+               
+            }
+            #block{
+                filter: blur(0px);
+                position: absolute;
+                z-index: 3;
+                
+            }
+            .con1{
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="con1">
+            <div class="container">
+                <div id="ak5">
+                    <div id="ak4">
+                        <div class="kava1">
+                            <div class="kava0">Tasks<span id="ak0">Lists</span></div><br>
+                            <a href=""><span id="ak1">+</span> Add List</a>
+                        </div>
+                        <div id="ak3">
+                            <div class="container1">
+                               <a href="" > Trip to Paris</a>
+                                <hr>
+                                <span id="ak2">completed Task</span><br><br>
+                                <input type="checkbox">pending Task
+                            </div>
+                            <div class="container1">
+                                <a href="" > My Todo List</a>
+                                 <hr>
+                                 <span id="ak2">completed Task</span><br><br>
+                                 <input type="checkbox">pending Task
+                             </div>
+                             <div class="container1">
+                                <a href="" > My Todo List</a>
+                                 <hr>
+                                 <span id="ak2">completed Task</span><br><br>
+                                 <input type="checkbox">pending Task
+                             </div>
+                        </div>
+                       
+                    </div>
+                   
+                </div>    
+            </div>
+        </div>
+       <div class="con1">
+        <div id="block">
+            <div class="ka0">
+                <div class="ka1">
+                    <p>Add New List</p>
+                    <input type="text" id="text"><br><br>
+                    <input type="button" value="ADD" id="button">
+        
+        
+                </div>
+            </div>
+          </div>
+       </div>
+     
+    </body>
+   
+</html>

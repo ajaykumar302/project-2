@@ -1,0 +1,113 @@
+.cont1{
+    border: 1px solid red;
+    border-radius: 3%;
+    box-shadow: 2px 2px 2px gray;
+    width: fit-content;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding: 20px 1px 30px 30px;
+    margin: 30px 50px;
+    font-weight: lighter;
+    text-align: center;
+            }
+            .ab1{
+                font-size: 50px;
+                text-align: center;
+                font-weight: bolder;
+
+            }
+            a{
+                color: gray;
+                text-decoration: none;
+                font-size: xx-large;
+                
+            }
+            #ak2{
+              text-decoration: line-through;
+              color: red;
+              align-content: center;
+              font-size: larger; 
+            }
+            h2{
+                color: red;
+             font-size: x-large;
+             font-weight: lighter;  
+                }
+                .ka2{
+                    text-align: center;
+                }
+                #ak1{
+                 font-size: x-large;
+                 color: white;
+                 background-color: red;
+                 border-radius: 50%;
+                 padding: 8px 8px 8px 8px;
+                 margin:2px 2px 2px 2px ;
+                 
+                }
+                .ak3{
+                    display: flex;
+                    justify-content:flex-end;
+
+                }
+                
+                .ka3{
+                    display: flex;
+                    justify-content: center;
+                }
+                #ak4{
+                    background-color: red;
+                    border: none;
+                    color: white;
+                    font-size: large;
+                    border-radius: 50%;
+                    padding: 5px;
+                    margin: 0px;
+                    text-align: center;
+                }
+                
+.ka1{
+    color: red;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 3%;
+    padding: 10px 10px 10px 10px;
+    margin: 30px 50px;
+    box-shadow: 5px 5px 5px gray;
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+p{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#button{
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: red;
+    font-size: larger;
+    border: red;
+    border-radius: 20px;
+
+}
+
+.ka0{
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+    
+}
+#text{
+    border-color: red;
+    height: 40px;
+    width: 300px;
+    margin-top: 0px;
+    border-radius: 10px;
+    
+}
+
+
+
